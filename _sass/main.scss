@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+$navbar-breakpoint: 769px;
+
 @import "../node_modules/bulma/bulma";
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/bulma-prefers-dark/bulma-prefers-dark.sass";
