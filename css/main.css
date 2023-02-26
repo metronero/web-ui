@@ -4449,7 +4449,7 @@ button.dropdown-item.is-active {
 .navbar.is-white .navbar-burger {
   color: hsl(0deg, 0%, 4%);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-white .navbar-start > .navbar-item,
 .navbar.is-white .navbar-start .navbar-link,
 .navbar.is-white .navbar-end > .navbar-item,
@@ -4505,7 +4505,7 @@ button.dropdown-item.is-active {
 .navbar.is-black .navbar-burger {
   color: hsl(0deg, 0%, 100%);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-black .navbar-start > .navbar-item,
 .navbar.is-black .navbar-start .navbar-link,
 .navbar.is-black .navbar-end > .navbar-item,
@@ -4561,7 +4561,7 @@ button.dropdown-item.is-active {
 .navbar.is-light .navbar-burger {
   color: rgba(0, 0, 0, 0.7);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-light .navbar-start > .navbar-item,
 .navbar.is-light .navbar-start .navbar-link,
 .navbar.is-light .navbar-end > .navbar-item,
@@ -4617,7 +4617,7 @@ button.dropdown-item.is-active {
 .navbar.is-dark .navbar-burger {
   color: #fff;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-dark .navbar-start > .navbar-item,
 .navbar.is-dark .navbar-start .navbar-link,
 .navbar.is-dark .navbar-end > .navbar-item,
@@ -4673,7 +4673,7 @@ button.dropdown-item.is-active {
 .navbar.is-primary .navbar-burger {
   color: #fff;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-primary .navbar-start > .navbar-item,
 .navbar.is-primary .navbar-start .navbar-link,
 .navbar.is-primary .navbar-end > .navbar-item,
@@ -4729,7 +4729,7 @@ button.dropdown-item.is-active {
 .navbar.is-link .navbar-burger {
   color: #fff;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-link .navbar-start > .navbar-item,
 .navbar.is-link .navbar-start .navbar-link,
 .navbar.is-link .navbar-end > .navbar-item,
@@ -4785,7 +4785,7 @@ button.dropdown-item.is-active {
 .navbar.is-info .navbar-burger {
   color: #fff;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-info .navbar-start > .navbar-item,
 .navbar.is-info .navbar-start .navbar-link,
 .navbar.is-info .navbar-end > .navbar-item,
@@ -4841,7 +4841,7 @@ button.dropdown-item.is-active {
 .navbar.is-success .navbar-burger {
   color: #fff;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-success .navbar-start > .navbar-item,
 .navbar.is-success .navbar-start .navbar-link,
 .navbar.is-success .navbar-end > .navbar-item,
@@ -4897,7 +4897,7 @@ button.dropdown-item.is-active {
 .navbar.is-warning .navbar-burger {
   color: rgba(0, 0, 0, 0.7);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-warning .navbar-start > .navbar-item,
 .navbar.is-warning .navbar-start .navbar-link,
 .navbar.is-warning .navbar-end > .navbar-item,
@@ -4953,7 +4953,7 @@ button.dropdown-item.is-active {
 .navbar.is-danger .navbar-burger {
   color: #fff;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-danger .navbar-start > .navbar-item,
 .navbar.is-danger .navbar-start .navbar-link,
 .navbar.is-danger .navbar-end > .navbar-item,
@@ -5179,7 +5179,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   margin: 0.5rem 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .navbar > .container {
     display: block;
   }
@@ -5233,7 +5233,7 @@ body.has-navbar-fixed-bottom-touch {
     padding-bottom: 3.25rem;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar,
 .navbar-menu,
 .navbar-start,
@@ -14755,7 +14755,7 @@ button.dropdown-item.is-active {
 .navbar.is-white .navbar-burger {
   color: hsl(0deg, 0%, 4%);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-white .navbar-start > .navbar-item,
 .navbar.is-white .navbar-start .navbar-link,
 .navbar.is-white .navbar-end > .navbar-item,
@@ -14811,7 +14811,7 @@ button.dropdown-item.is-active {
 .navbar.is-black .navbar-burger {
   color: hsl(0deg, 0%, 100%);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-black .navbar-start > .navbar-item,
 .navbar.is-black .navbar-start .navbar-link,
 .navbar.is-black .navbar-end > .navbar-item,
@@ -14867,7 +14867,7 @@ button.dropdown-item.is-active {
 .navbar.is-light .navbar-burger {
   color: rgba(0, 0, 0, 0.7);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-light .navbar-start > .navbar-item,
 .navbar.is-light .navbar-start .navbar-link,
 .navbar.is-light .navbar-end > .navbar-item,
@@ -14923,7 +14923,7 @@ button.dropdown-item.is-active {
 .navbar.is-dark .navbar-burger {
   color: #fff;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-dark .navbar-start > .navbar-item,
 .navbar.is-dark .navbar-start .navbar-link,
 .navbar.is-dark .navbar-end > .navbar-item,
@@ -14979,7 +14979,7 @@ button.dropdown-item.is-active {
 .navbar.is-primary .navbar-burger {
   color: #fff;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-primary .navbar-start > .navbar-item,
 .navbar.is-primary .navbar-start .navbar-link,
 .navbar.is-primary .navbar-end > .navbar-item,
@@ -15035,7 +15035,7 @@ button.dropdown-item.is-active {
 .navbar.is-link .navbar-burger {
   color: #fff;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-link .navbar-start > .navbar-item,
 .navbar.is-link .navbar-start .navbar-link,
 .navbar.is-link .navbar-end > .navbar-item,
@@ -15091,7 +15091,7 @@ button.dropdown-item.is-active {
 .navbar.is-info .navbar-burger {
   color: #fff;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-info .navbar-start > .navbar-item,
 .navbar.is-info .navbar-start .navbar-link,
 .navbar.is-info .navbar-end > .navbar-item,
@@ -15147,7 +15147,7 @@ button.dropdown-item.is-active {
 .navbar.is-success .navbar-burger {
   color: #fff;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-success .navbar-start > .navbar-item,
 .navbar.is-success .navbar-start .navbar-link,
 .navbar.is-success .navbar-end > .navbar-item,
@@ -15203,7 +15203,7 @@ button.dropdown-item.is-active {
 .navbar.is-warning .navbar-burger {
   color: rgba(0, 0, 0, 0.7);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-warning .navbar-start > .navbar-item,
 .navbar.is-warning .navbar-start .navbar-link,
 .navbar.is-warning .navbar-end > .navbar-item,
@@ -15259,7 +15259,7 @@ button.dropdown-item.is-active {
 .navbar.is-danger .navbar-burger {
   color: #fff;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar.is-danger .navbar-start > .navbar-item,
 .navbar.is-danger .navbar-start .navbar-link,
 .navbar.is-danger .navbar-end > .navbar-item,
@@ -15485,7 +15485,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   margin: 0.5rem 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .navbar > .container {
     display: block;
   }
@@ -15539,7 +15539,7 @@ body.has-navbar-fixed-bottom-touch {
     padding-bottom: 3.25rem;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .navbar,
 .navbar-menu,
 .navbar-start,
@@ -24479,7 +24479,7 @@ button.dropdown-item.is-active {
     color: hsl(0deg, 0%, 4%);
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-white .navbar-start > .navbar-item,
 .navbar.is-white .navbar-start .navbar-link,
 .navbar.is-white .navbar-end > .navbar-item,
@@ -24532,7 +24532,7 @@ button.dropdown-item.is-active {
     color: hsl(0deg, 0%, 100%);
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-black .navbar-start > .navbar-item,
 .navbar.is-black .navbar-start .navbar-link,
 .navbar.is-black .navbar-end > .navbar-item,
@@ -24585,7 +24585,7 @@ button.dropdown-item.is-active {
     color: rgba(0, 0, 0, 0.7);
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-light .navbar-start > .navbar-item,
 .navbar.is-light .navbar-start .navbar-link,
 .navbar.is-light .navbar-end > .navbar-item,
@@ -24638,7 +24638,7 @@ button.dropdown-item.is-active {
     color: #fff;
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-dark .navbar-start > .navbar-item,
 .navbar.is-dark .navbar-start .navbar-link,
 .navbar.is-dark .navbar-end > .navbar-item,
@@ -24691,7 +24691,7 @@ button.dropdown-item.is-active {
     color: #fff;
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-primary .navbar-start > .navbar-item,
 .navbar.is-primary .navbar-start .navbar-link,
 .navbar.is-primary .navbar-end > .navbar-item,
@@ -24744,7 +24744,7 @@ button.dropdown-item.is-active {
     color: #fff;
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-link .navbar-start > .navbar-item,
 .navbar.is-link .navbar-start .navbar-link,
 .navbar.is-link .navbar-end > .navbar-item,
@@ -24797,7 +24797,7 @@ button.dropdown-item.is-active {
     color: #fff;
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-info .navbar-start > .navbar-item,
 .navbar.is-info .navbar-start .navbar-link,
 .navbar.is-info .navbar-end > .navbar-item,
@@ -24850,7 +24850,7 @@ button.dropdown-item.is-active {
     color: #fff;
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-success .navbar-start > .navbar-item,
 .navbar.is-success .navbar-start .navbar-link,
 .navbar.is-success .navbar-end > .navbar-item,
@@ -24903,7 +24903,7 @@ button.dropdown-item.is-active {
     color: rgba(0, 0, 0, 0.7);
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-warning .navbar-start > .navbar-item,
 .navbar.is-warning .navbar-start .navbar-link,
 .navbar.is-warning .navbar-end > .navbar-item,
@@ -24956,7 +24956,7 @@ button.dropdown-item.is-active {
     color: #fff;
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-danger .navbar-start > .navbar-item,
 .navbar.is-danger .navbar-start .navbar-link,
 .navbar.is-danger .navbar-end > .navbar-item,
@@ -25009,7 +25009,7 @@ button.dropdown-item.is-active {
     color: hsl(0deg, 0%, 4%);
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-white-dark .navbar-start > .navbar-item,
 .navbar.is-white-dark .navbar-start .navbar-link,
 .navbar.is-white-dark .navbar-end > .navbar-item,
@@ -25062,7 +25062,7 @@ button.dropdown-item.is-active {
     color: hsl(0deg, 0%, 100%);
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-black-dark .navbar-start > .navbar-item,
 .navbar.is-black-dark .navbar-start .navbar-link,
 .navbar.is-black-dark .navbar-end > .navbar-item,
@@ -25115,7 +25115,7 @@ button.dropdown-item.is-active {
     color: rgba(0, 0, 0, 0.7);
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-light-dark .navbar-start > .navbar-item,
 .navbar.is-light-dark .navbar-start .navbar-link,
 .navbar.is-light-dark .navbar-end > .navbar-item,
@@ -25168,7 +25168,7 @@ button.dropdown-item.is-active {
     color: #fff;
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-dark-dark .navbar-start > .navbar-item,
 .navbar.is-dark-dark .navbar-start .navbar-link,
 .navbar.is-dark-dark .navbar-end > .navbar-item,
@@ -25221,7 +25221,7 @@ button.dropdown-item.is-active {
     color: #fff;
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-primary-dark .navbar-start > .navbar-item,
 .navbar.is-primary-dark .navbar-start .navbar-link,
 .navbar.is-primary-dark .navbar-end > .navbar-item,
@@ -25274,7 +25274,7 @@ button.dropdown-item.is-active {
     color: #fff;
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-link-dark .navbar-start > .navbar-item,
 .navbar.is-link-dark .navbar-start .navbar-link,
 .navbar.is-link-dark .navbar-end > .navbar-item,
@@ -25327,7 +25327,7 @@ button.dropdown-item.is-active {
     color: #fff;
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-info-dark .navbar-start > .navbar-item,
 .navbar.is-info-dark .navbar-start .navbar-link,
 .navbar.is-info-dark .navbar-end > .navbar-item,
@@ -25380,7 +25380,7 @@ button.dropdown-item.is-active {
     color: #fff;
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-success-dark .navbar-start > .navbar-item,
 .navbar.is-success-dark .navbar-start .navbar-link,
 .navbar.is-success-dark .navbar-end > .navbar-item,
@@ -25433,7 +25433,7 @@ button.dropdown-item.is-active {
     color: rgba(0, 0, 0, 0.7);
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-warning-dark .navbar-start > .navbar-item,
 .navbar.is-warning-dark .navbar-start .navbar-link,
 .navbar.is-warning-dark .navbar-end > .navbar-item,
@@ -25486,7 +25486,7 @@ button.dropdown-item.is-active {
     color: #fff;
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-danger-dark .navbar-start > .navbar-item,
 .navbar.is-danger-dark .navbar-start .navbar-link,
 .navbar.is-danger-dark .navbar-end > .navbar-item,
@@ -25565,7 +25565,7 @@ button.dropdown-item.is-active {
     background-color: hsl(0deg, 0%, 14%);
   }
 }
-@media screen and (prefers-color-scheme: dark) and (max-width: 768px) {
+@media screen and (prefers-color-scheme: dark) and (max-width: 1023px) {
   .navbar-menu {
     background-color: #17181c;
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
@@ -25575,7 +25575,7 @@ button.dropdown-item.is-active {
     box-shadow: 0 -2px 3px rgba(255, 255, 255, 0.1);
   }
 }
-@media screen and (prefers-color-scheme: dark) and (min-width: 769px) {
+@media screen and (prefers-color-scheme: dark) and (min-width: 1024px) {
   .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
     background-color: hsl(0deg, 0%, 14%);
     color: hsl(0deg, 0%, 100%);

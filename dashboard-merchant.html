@@ -4,42 +4,41 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/metronero.css">
     <link rel="icon" type="image/png" href="assets/img/metronero.png" sizes="32x32">
     <title>Dashboard | Metronero</title>
   </head>
-  <style>
-  .navbar .navbar-burger{
-	height: 4rem;
-	min-height: 4rem;
-  }
-  .navbar-brand img {
-	height: 2.5rem;
-	max-height: 2.5rem;
-  }
-  </style>
   <body>
-  <nav class="navbar px-5" role="navigation" aria-label="main navigation">
+  <nav class="navbar px-5 py-2 has-shadow" role="navigation" aria-label="main navigation">
+  <input type="checkbox" id="toggler" class="toggler">
   <div class="navbar-brand">
     <a class="navbar-item" href="/">
       <img src="assets/img/metronero-logo.png" alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width=100%>
     </a>
 
-    <a role="button" class="navbar-burger is-pulled-right is-mobile" aria-label="menu" aria-expanded="false">
+<label for="toggler" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="metronero-navbar">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
 </div>
 
-<div class="navbar-menu">
+<div class="navbar-menu" id="metronero-navbar">
     <div class="navbar-start">
+    	  <hr class="navbar-divider">
+          <a class="navbar-item is-hoverable is-hidden-desktop" target="new">Dashboard</a>
+          <a class="navbar-item is-hoverable is-hidden-desktop" target="new">Themes</a>
+          <a class="navbar-item is-hoverable is-hidden-desktop" target="new">Authentication</a>
+          <a class="navbar-item is-hoverable is-hidden-desktop" target="new">Payments</a>
+          <a class="navbar-item is-hoverable is-hidden-desktop" target="new">Withdrawals</a>
+
     </div>
 
     <div class="navbar-end">
-      <div class="navbar-item">
+      <div class="navbar-item is-hidden-touch">
       <p>Siren</p>
       </div>
-      <div class="navbar-item px-1">
+      <div class="navbar-item px-1 is-hidden-touch">
       <p>|</p>
       </div>
       <div class="navbar-item">
@@ -60,10 +59,10 @@
   </div>
 </nav>
 
-<section class="section pt-5">
+<section class="section pt-5 px-5">
 
 <div class="columns">
-<div class="column is-narrow">
+<div class="column is-narrow is-hidden-touch">
 <aside class="menu">
   <p class="menu-label">
     General
