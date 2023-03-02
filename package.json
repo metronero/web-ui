@@ -1,19 +1,19 @@
 {
-  "name": "bulma-start",
-  "version": "0.0.5",
-  "description": "Start package for Bulma",
+  "name": "Metronero",
+  "version": "0.0.1",
+  "description": "Metronero Web UI",
   "keywords": [
     "sass",
     "bulma",
     "css",
     "start"
   ],
-  "author": "Jeremy Thomas <bbxdesign@gmail.com> (http://jgthms.com)",
+  "author": "Irem Kuyucu <siren@kernal.eu>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jgthms/bulma-start.git"
+    "url": "git+https://gitlab.com/moneropay/metronero-web.git"
   },
-  "license": "MIT",
+  "license": "AGPLv3",
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "babel-cli": "^6.26.0",
@@ -30,7 +30,8 @@
     "css-postcss": "postcss --use autoprefixer --output css/main.css css/main.css",
     "css-watch": "npm run css-build -- --watch",
     "deploy": "npm run css-deploy",
-    "start": "npm-run-all --parallel css-watch"
+    "start": "npm-run-all --parallel css-watch",
+    "tidy": "tidy -as-xhtml --input-xml --tidy-mark no  -indent --indent-spaces 4 -wrap 0 --new-blocklevel-tags article,header,footer --new-inline-tags video,audio,canvas,ruby,rt,rp  --break-before-br yes --sort-attributes alpha --vertical-space yes *.html"
   },
   "dependencies": {
     "bulma-prefers-dark": "^0.1.0-beta.1"
