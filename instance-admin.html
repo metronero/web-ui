@@ -27,7 +27,7 @@
     <div class="navbar-start">
     	  <hr class="navbar-divider">
           <a class="navbar-item is-hoverable is-hidden-desktop" target="new">Dashboard</a>
-          <a class="navbar-item is-hoverable is-hidden-desktop" href="instance-admin" target="new">Instance</a>
+          <a class="navbar-item is-hoverable is-hidden-desktop" target="new">Instance</a>
           <a class="navbar-item is-hoverable is-hidden-desktop" target="new">Merchants</a>
           <a class="navbar-item is-hoverable is-hidden-desktop" target="new">Payments</a>
           <a class="navbar-item is-hoverable is-hidden-desktop" target="new">Withdrawals</a>
@@ -73,7 +73,7 @@
     Settings
   </p>
   <ul class="menu-list">
-    <li><a href="instance-admin">Instance</a></li>
+    <li><a>Instance</a></li>
     <li><a>Merchants</a></li>
   </ul>
   <p class="menu-label">
@@ -87,52 +87,71 @@
 </div>
 
 <div class="column">
-<section class="hero">
-  <div class="hero-body">
-    <p class="title">
-      Your balance: 0.61 XMR
-    </p>
-    <p class="subtitle">
-      Total profits: 56.24 XMR
-    </p>
-    <div class="buttons">
-      <button class="button is-primary">Manage instance</button>
-      <button class="button is-primary is-pulled-right">Docs</button>
+<section class="section content">
+<h1 class="title is-spaced">Instance Settings</h1>
+
+<div class="field is-horizontal">
+  <div class="field-label">
+    <label class="label">Custodial mode</label>
+  </div>
+  <div class="field-body">
+    <div class="field is-narrow">
+      <div class="control">
+        <label class="radio">
+          <input type="radio" name="member">
+          On
+        </label>
+        <label class="radio">
+          <input type="radio" name="member">
+          Off
+        </label>
+      </div>
     </div>
   </div>
-</section>
-
-
-<section class="section">
-<p class="title">Recent withdrawals</p>
-<div class="table-container">
-<table class="table is-bordered is-striped is-hoverable is-fullwidth is-narrow">
-  <thead>
-    <tr>
-      <th>Merchant</th>
-      <th>Amount</th>
-      <th>Fee</th>
-      <th>Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Siren</td>
-      <td>1 XMR</td>
-      <td>0.01 XMR</td>
-      <td>2023-02-21</td>
-    </tr>
-    <tr>
-      <td>Munstie</td>
-      <td>10 XMR</td>
-      <td>0.1 XMR</td>
-      <td>2023-02-12</td>
-    </tr>
-  </tbody>
-</table>
 </div>
 
-<button class="button is-primary is-pulled-right">Go to withdrawal history</button>
+<div class="field is-horizontal">
+  <div class="field-label is-normal">
+    <label class="label">Default commission rate</label>
+  </div>
+  <div class="field-body">
+    <div class="field">
+      <div class="control">
+        <input class="input" type="text" placeholder="0.1">
+      </div>
+      <p class="help">
+        Amount in float XMR
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="field is-horizontal">
+  <div class="field-label">
+    <label class="label">Registrations open</label>
+  </div>
+  <div class="field-body">
+    <div class="field is-narrow">
+      <div class="control">
+        <label class="radio">
+          <input type="radio" name="member">
+          Yes
+        </label>
+        <label class="radio">
+          <input type="radio" name="member">
+          No
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<button class="button is-primary is-pulled-right">Save</button>
 </section>
 
 </div>
